@@ -1,7 +1,6 @@
 # Master the JavaScript
-This repo covers all TypeScript methods in general
+This repo covers all JavaScript methods in general
 
----
 ---
 
 ### Introduction to JavaScript:
