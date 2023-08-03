@@ -9,7 +9,7 @@ This repo covers all JavaScript methods in general
 - Role of JavaScript in web development.
 - JavaScript vs other programming languages.
 
-### Variables and Data Types:
+### [Variables and Data Types:](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/variables-and-data-types.md)
 
 - Declaring variables (var, let, const).
 - Primitive data types (number, string, boolean, null, undefined).
@@ -118,3 +118,5 @@ This repo covers all JavaScript methods in general
 
 - Introduction to various browser APIs (e.g., WebSockets, Geolocation, WebRTC).
 
+
+ 
