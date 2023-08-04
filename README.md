@@ -9,6 +9,14 @@ This repo covers all JavaScript methods in general
 - Role of JavaScript in web development.
 - JavaScript vs other programming languages.
 
+### [How JavaScript works:](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/how-js-executes.md)
+- Global Execution context
+- memory creation phase
+- code execution phase
+- window object
+- global space
+- undefined vs not defined
+
 ### [Variables and Data Types:](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/variables-and-data-types.md)
 
 - Declaring variables (var, let, const).
