@@ -53,6 +53,7 @@ but in the case of not defined memory is not allocated to that variable.
 
 #### Lexical environment :
  lexical environment is the local memory along with the lexical environment of its parent.
+ - whenever an EC is created a lexiacal environment is also created and lexical environment is the local memory and reference to the lexical environment of parent.
   
 
 
