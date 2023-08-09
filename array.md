@@ -66,7 +66,7 @@ Returns the first index at which a given element can be found in the array, or -
 Returns the last index at which a given element can be found in the array, or -1 if not present.
 
 10. includes()
-Determines whether an array contains a certain element, returning true or false.
+Determines whether an array contains a certain element, returning true or false. it is works only in premetive data type 
 
 11. find()
 Returns the first element in an array that satisfies a provided testing function.
