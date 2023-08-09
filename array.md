@@ -2,7 +2,9 @@
 all methods of array all here with explaination as well as example.
 
 
-1. #### push() :
+## Methods in Array 
+
+ #### 1. push() :
 
 Appends new elements to the end of an array, and returns the new length of the array.
 ```javascript 
@@ -14,7 +16,7 @@ console.log(arr); // output -> [1, 2, 3, 4, 5, 6, 7];
 
 ```
 
-2. #### unshift() :
+ #### 2. unshift() :
 AInserts new elements at the start of an array, and returns the new length of the array.
 ```javascript 
 
@@ -25,7 +27,7 @@ console.log(arr); // output -> [6, 7, 1, 2, 3, 4, 5];
 
 ```
 
-3. #### pop() : 
+ #### 3. pop() : 
 Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 ```javascript 
 
@@ -36,7 +38,7 @@ console.log(arr); // output -> [ 1, 2, 3, 4 ]
 
 ```
 
-4. #### shift() :
+ #### 4. shift() :
 Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 ```javascript 
 
