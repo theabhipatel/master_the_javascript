@@ -50,7 +50,7 @@ This repo covers all JavaScript methods in general
 - Parameters and return values.
 - Arrow functions.
 
-### Arrays:
+### [Arrays](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/array.md):
 
 - Creating arrays.
 - Accessing and modifying array elements.
