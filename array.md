@@ -2,17 +2,51 @@
 all methods of array all here with explaination as well as example.
 
 
-1. push()
-Adds one or more elements to the end of an array and returns the new length of the array.
+1. #### push() :
 
-2. pop()
-Removes the last element from an array and returns that element.
+Appends new elements to the end of an array, and returns the new length of the array.
+```javascript 
 
-3. shift()
-Removes the first element from an array and returns that element.
+const arr = [1, 2, 3, 4, 5];
+const newReturn =  arr.push(6, 7);
+console.log(newReturn) // output -> 7 (as the length of new array is 7)
+console.log(arr); // output -> [1, 2, 3, 4, 5, 6, 7];
 
-4. unshift()
-Adds one or more elements to the beginning of an array and returns the new length of the array.
+```
+
+2. #### unshift() :
+AInserts new elements at the start of an array, and returns the new length of the array.
+```javascript 
+
+const arr = [1, 2, 3, 4, 5];
+const newReturn =  arr.unshift(6, 7);
+console.log(newReturn) // output -> 7 (as the length of new array is 7)
+console.log(arr); // output -> [6, 7, 1, 2, 3, 4, 5];
+
+```
+
+3. #### pop() : 
+Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+```javascript 
+
+const arr = [1, 2, 3, 4, 5];
+const newReturn =  arr.pop();
+console.log(newReturn) // output -> a (as the last element is 5)
+console.log(arr); // output -> [ 1, 2, 3, 4 ]
+
+```
+
+4. #### shift() :
+Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+```javascript 
+
+const arr = [1, 2, 3, 4, 5];
+const newReturn =  arr.shift();
+console.log(newReturn) // output -> 1 (as the first element is 1)
+console.log(arr); // output -> [  2, 3, 4, 5 ]
+
+```
+
 
 5. concat()
 Combines two or more arrays, creating a new array.
