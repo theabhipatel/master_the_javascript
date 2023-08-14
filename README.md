@@ -57,6 +57,10 @@ This repo covers all JavaScript methods in general
 - Array methods (push, pop, shift, unshift, etc.).
 - Iterating through arrays (forEach, map, filter, reduce, etc.).
 
+
+### [Strings](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/string.md):
+- All String methods
+
 ### Objects:
 
 - Creating objects (object literals, constructor functions, classes).
