@@ -1,4 +1,4 @@
-# Object
+# Objects
 This will give you information about Object and all the working methods there are present in objects.
 
 
