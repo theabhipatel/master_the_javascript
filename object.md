@@ -1,7 +1,16 @@
 # Object
-This will give you information about all the working methods there are present in object
----
+This will give you information about Object and all the working methods there are present in objects.
 
+
+## Definition : 
+ An object in JavaScript is a collection of related data and functions grouped together under a single name. It allows you to store and organize information in the form of key-value pairs, where each key is a string and each value can be a variety of data types, including other objects or functions. 
+
+ - **in simplest way we can say** - in Javascript Object is a data type. with the help of object we store data in key-value pair. Where key is always string and value can be any data type like string, boolean, number, object, array etc.
+ - Object is a **non-premetive** and  **reference** data type, like array.
+ - **reference** data type means when we assign any object to another object, it would not make the copy of the previous object rather it will reference the memory location. that's why if we make some changes in second object, the first object will also be modified. 
+ - In the **Javascript everything  is an object at the end.** it means all the things which are there in javascript convert into the object. 
+
+## Methods : 
 #### 1. Object.assign() :
 The Object.assign() static method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
 
