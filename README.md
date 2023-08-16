@@ -66,7 +66,7 @@ This repo covers all JavaScript methods in general
 ### [Strings](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/string.md) :
 - All String methods
 
-### [Objects]:(https://github.com/TheAbhiPatel/master_the_javascript/blob/main/object.md) :
+### [Objects](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/object.md) :
 
 - Creating objects (object literals, constructor functions, classes).
 - Accessing and modifying object properties.
