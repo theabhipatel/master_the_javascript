@@ -9,7 +9,7 @@ This repo covers all JavaScript methods in general
 - Role of JavaScript in web development.
 - JavaScript vs other programming languages.
 
-### [How JavaScript works:](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/how-js-executes.md)
+### [How JavaScript works :](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/how-js-executes.md)
 - Global Execution context
 - memory creation phase
 - code execution phase
@@ -17,7 +17,7 @@ This repo covers all JavaScript methods in general
 - global space
 - undefined vs not defined
 
-### [Variables and Data Types:](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/variables-and-data-types.md)
+### [Variables and Data Types :](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/variables-and-data-types.md)
 
 - Declaring variables (var, let, const).
 - Primitive data types (number, string, boolean, null, undefined).
@@ -29,28 +29,33 @@ This repo covers all JavaScript methods in general
 - Comparison operators (==, ===, !=, !==, >, <, >=, <=).
 - Logical operators (&&, ||, !).
 
-### Control Flow:
+### [# Control Flow Statement](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/control-statement.md) :
 
 - if...else statements.
 - switch...case statements.
+- Falsy values.
+- Exception handling statements(throw, try-catch)
 - Ternary (conditional) operator.
 
-### Loops:
+### [Loops](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/loops-and-iteration.md) :
 
 - for loop.
 - while loop.
 - do...while loop.
+- labeled statement.
+- break statement.
+- continue statement.
 - for...in loop.
 - for...of loop.
 
-### Functions:
+### Functions :
 
 - Declaring functions.
 - Function expressions vs function declarations.
 - Parameters and return values.
 - Arrow functions.
 
-### [Arrays](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/array.md):
+### [Arrays](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/array.md) :
 
 - Creating arrays.
 - Accessing and modifying array elements.
@@ -58,10 +63,10 @@ This repo covers all JavaScript methods in general
 - Iterating through arrays (forEach, map, filter, reduce, etc.).
 
 
-### [Strings](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/string.md):
+### [Strings](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/string.md) :
 - All String methods
 
-### [Objects]:(https://github.com/TheAbhiPatel/master_the_javascript/blob/main/object.md):
+### [Objects]:(https://github.com/TheAbhiPatel/master_the_javascript/blob/main/object.md) :
 
 - Creating objects (object literals, constructor functions, classes).
 - Accessing and modifying object properties.
