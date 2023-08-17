@@ -7,20 +7,21 @@
 ## Variables :
 Variables in JavaScript are declared using one of three keywords: let, const, or var.
 
-**let :** 
+**1. let :** 
 `let` allows you to declare block-level variables. The declared variable is available from the block it is enclosed in.(**Remember it : `let` can be re-assigned, but can't be re-declare in it's scope.**)
 
-**const :**
+**2. const :**
 `const` allows you to declare variables whose values are never intended to change. The variable is available from the block it is declared in. (**Remember this : `const` can't be re-assigned or re-declare in it's scope.**)
 
-**var :**
+**3. var :**
 In JavaScript, `var` is used to create variables, but it has less strict scoping rules than let and const, which can sometimes lead to unexpected behaviors and make the code harder to understand and maintain.(**Remember this : `var` can be re-assigned or re-declare always. that's why in  modern javascript we should not use it.**)
 
 
 
 ## Data types : 
+There are two types of data type in javascript. 
 
- ### **Primitive data types:**
+ ### **1. Primitive data types:**
   The predefined data types provided by JavaScript language are known as primitive data types. Primitive data types are also known as in-built data types.
 
 JavaScript offers seven primitive types:
@@ -82,7 +83,7 @@ All primitive types, except null, can be tested by the typeof operator. typeof n
 Everything else is known as a non-primitive and an Object type. Common object types include:
 
 
- ### **Non-primitive data types :** 
+ ### **2. Non-primitive data types :** 
  The data types that are derived from primitive data types of the JavaScript language are known as non-primitive data types. It is also known as derived data types or reference data types.
 
 - **Array :** Represents an ordered list of values. With the help of an array, we can store more than one element under a single name.
