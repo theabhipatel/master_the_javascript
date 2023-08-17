@@ -128,5 +128,8 @@ const pattern = /[a-zA-Z]+/;
 | Primitive Data types will have certain values. |	Non-Primitive data types can be NULL.|
 | Size depends on the type of data structure.|	Size is not fixed|
 
+## Some importent things about variables :
+
+- In Javascript when we assign any primitive variable to another. it will make a copy of data but when we assign any non-primitive or reference data to another. It will not make a copy of data rather it will reference to that data. and then if we make changes in second variable. it would also change the first variable because it has referece to that variable in memory . that's why we called non-primitive data to reference data type as well. 
 
 - JavaScript is a dynamically typed language, so variables can change their data types during runtime. For example, a variable initially holding a number can be assigned a string value later.
