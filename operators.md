@@ -1,6 +1,10 @@
 # Operators in JS 
 JavaScript **operators** operate the operands, these are symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript, operators are used to compare values, perform arithmetic operations, etc.
 
+- Operators in JavaScript are symbols that perform operations on operands (values or variables). They allow you to manipulate, compare, and combine values in your code. 
+
+- These operators are fundamental for writing expressions and manipulating data in JavaScript. They allow you to create more complex behavior and calculations within your code.
+
 **JavaScript Operators :** There are various operators supported by JavaScript.
 
 1. JS Arithmetic Operators
@@ -323,7 +327,7 @@ Y = = = X is false.
 3. **Inequality (!=) :**  
   Compares inequality of two operands. True if operands are not equal. 
   ```js
-let X = 10 then X ! = 11 is true. 
+    let X = 10 then X ! = 11 is true. 
   ```
 
 4. **Strict inequality(!==) :**  
@@ -335,25 +339,25 @@ let X = 10 then X ! == '10' is true.
 5. **Greater than (>) :**  
   This operator checks whether the left side value is greater than the right side value. If yes then it returns true otherwise it returns false. 
   ```js
-let X = 10 then X > 11 is false. 
+    let X = 10 then X > 11 is false. 
   ```
 
 6. **Less than (<) :**  
  This operator checks whether the left side value is less than the right side value. If yes then it returns true otherwise it returns false. 
  ```js
-let X = 10 then X < 11 is true. 
+    let X = 10 then X < 11 is true. 
  ```
 
 7. **Greater than or Equal to (> =) :**  
  This operator checks whether the left side operand is greater than or equal to the right side operand. If yes then it returns true otherwise it returns false. 
  ```js
-let X = 10 then X > = 11 is false. 
+    let X = 10 then X > = 11 is false. 
  ```
 
 8. **Less than or Equal to (<= ) :**  
  This operator checks whether the left side operand value is less than or equal to the right side operand value. If yes then it returns true otherwise it returns false.
  ```js
-let X = 10 then X < = 10 is true. 
+    let X = 10 then X < = 10 is true. 
  ``` 
 
 Example: In this example, we will use all comparison operators.
@@ -395,22 +399,34 @@ Example: In this example, we will use all comparison operators.
  These operators are used to determine the logic between variables or values.
  
 | Operator |	Description |
-| - | - |
+| --- | ---- |
 | && |	logical and |
 | \|\| |	logical or |
 | !	 | logical not |
 
-1. Logical AND (&&): It checks whether two operands are non-zero (0, false, undefined, null, or “” are considered as zero), if yes then return the last operand when evaluating from left to right. 
-Y = 5 and X = 6
+1. **Logical AND (&&) :**  
+ It checks whether two operands are non-zero (0, false, undefined, null, or “” are considered as zero), if yes then return the last operand when evaluating from left to right. 
+ ```js 
+ Y = 5 and X = 6
 Y && X is 6.
+ ```
 
-2. Logical OR (||): It checks whether two operands are non-zero (0, false, undefined, null, or “” is considered as zero), if yes then return the first operand when evaluating from left to right. 
-Y = 5 and X = 0
+
+2. **Logical OR (||) :**  
+ It checks whether two operands are non-zero (0, false, undefined, null, or “” is considered as zero), if yes then return the first operand when evaluating from left to right. 
+ ```js
+ Y = 5 and X = 0
 Y || X is 5.
+ ```
 
-3. Logical NOT (!): It reverses the boolean result of the operand (or condition). 
-Y = 5 and X = 0
+
+3. **Logical NOT (!) :**  
+ It reverses the boolean result of the operand (or condition). 
+ ```js 
+ Y = 5 and X = 0
 !(Y || X) is false.
+ ```
+
 
 Example: In this example, we will use all logical operators.
 
@@ -425,24 +441,52 @@ Example: In this example, we will use all logical operators.
   
     // Logical &&(AND) Operator
     console.log( val1 && val2 ); // 5
-5
+
       
     // Lgical ||(OR) Operator
     console.log( val1 || val2 ); // 5
-5
+
+```
+
+### # 5. String Operator : 
+
+
+**Concatenation (+) :**  
+The + can also be used to add (concatenate) strings 
+```js
+let text1 = "John";
+let text2 = "Doe";
+let text3 = text1 + " " + text2;
+```
+The += assignment operator can also be used to add (concatenate) strings 
+```js 
+let text1 = "What a very ";
+text1 += "nice day";
+// output : "What a very nice day"
 ```
 
 ### # 5.  Bitwise Operator: 
 The bitwise operator in JavaScript is used to convert the number to a 32-bit binary number and perform the bitwise operation. The number is converted back to the 64-bit number after the result. 
+| Operator | Discription |
+| --- | --- |
+| & Bitwise AND |
+| \|  | Bitwise OR |
+| ^ | Bitwise XOR |
+| ~ | Bitwise NOT |
+| << | Left shift |
+| >> | Right shift |
+| >>> | Unsigned right shift |
 
 
 ### # 6. Ternary Operator :
  The ternary operator has three operands. It is the simplified operator of if/else.
 
 **Ternary Operator(?) :** It is like the short form of the if-else condition. 
-
+```js
 Y =  ? A : B
 If the condition is true then Y = A otherwise Y = B
+```
+
 
 Example: In this example, we will use the ternary operator.
 ```js
@@ -479,84 +523,13 @@ Example: In this example, we will use typeof operator.
     let c = "";
     let d = null;
       
-    console.log("Type of a = " + (typeof a));
-    console.log("Type of b = " + (typeof b));
-    console.log("Type of c = " + (typeof c));
-    console.log("Type of d = " + (typeof d));
-    console.log("Type of e = " + (typeof e));
-
-    // out put 
-    Type of a = number
-Type of b = string
-Type of c = string
-Type of d = object
-Type of e = undefined
+    console.log("Type of a = " + (typeof a)); //  Type of a = number
+    console.log("Type of b = " + (typeof b)); // Type of b = string
+    console.log("Type of c = " + (typeof c)); // Type of c = string
+    console.log("Type of d = " + (typeof d)); // Type of d = object
+    console.log("Type of e = " + (typeof e)); // Type of e = undefined
 ```
 
 
 
 
----
-<!-- ------------------------------------ -->
----
-
-Operators in JavaScript are symbols that perform operations on operands (values or variables). They allow you to manipulate, compare, and combine values in your code. Here's a brief introduction to operators and a list of different types:
-
-Arithmetic Operators: Perform mathematical calculations.
-
-+ Addition
-- Subtraction
-* Multiplication
-/ Division
-% Modulus (remainder)
-** Exponentiation
-Assignment Operators: Assign values to variables.
-
-= Assign
-+= Add and assign
--= Subtract and assign
-*= Multiply and assign
-/= Divide and assign
-Comparison Operators: Compare values and return a Boolean.
-
-== Equal to
-!= Not equal to
-=== Strict equal to
-!== Strict not equal to
-> Greater than
-< Less than
->= Greater than or equal to
-<= Less than or equal to
-Logical Operators: Perform logical operations and return a Boolean.
-
-&& Logical AND
-|| Logical OR
-! Logical NOT
-Unary Operators: Operate on a single operand.
-
-+ Positive value
-- Negation
-++ Increment by 1
--- Decrement by 1
-Conditional (Ternary) Operator: A shorthand for simple if-else statements.
-
-condition ? expression1 : expression2
-Type Operators: Check the type of a value.
-
-typeof Returns the type of a value as a string
-instanceof Checks if an object is an instance of a particular class or constructor
-Bitwise Operators: Perform bitwise operations on integers.
-
-& Bitwise AND
-| Bitwise OR
-^ Bitwise XOR
-~ Bitwise NOT
-<< Left shift
->> Right shift
->>> Unsigned right shift
-String Operators: Concatenate strings.
-
-+ Concatenation
-Comma Operator: Evaluates multiple expressions and returns the last one.
-
-These operators are fundamental for writing expressions and manipulating data in JavaScript. They allow you to create more complex behavior and calculations within your code.
