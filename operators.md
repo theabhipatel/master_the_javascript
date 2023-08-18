@@ -172,70 +172,74 @@ The assignment operation evaluates the assigned value. Chaining the assignment o
 | %= |	x %= y |	x = x % y |
 | **= |	x **= y |	x = x ** y |
 
-1. Assignment (=): 
- This operator assigns the right operand value to the left operand.
+1. **Assignment (=) :**  
+This operator assigns the right operand value to the left operand.
  ```js 
  If A = 10 and Y = A then Y = 10
  ```
 
-2. Addition Assignment (+=): 
+2. **Addition Assignment (+=) :**  
  Sums up left and right operand values and then assigns the result to the left operand.;
  ```js
 Y += 1 gives Y = Y + 1 
  ```
 
-3. Subtraction Assignment (- =): 
+3. **Subtraction Assignment (- =) :**  
  It subtracts the right side value from the left side value and then assigns the result to the left operand. 
  ```js
 Y -= 1 gives Y = Y - 1 
  ```
 
-4. Multiplication Assignment (*=): 
+4. **Multiplication Assignment (*=):**  
  It multiplies a variable by the value of the right operand and assigns the result to the variable.
  ```js
 Y *= A is equivalent to Y = Y * A
  ```
 
-5. Division Assignment (/ =): 
+5. **Division Assignment (/ =) :**  
  It divides a variable by the value of the right operand and assigns the result to the variable.
  ```js
 Y /= A is equivalent to Y = Y / A
  ```
 
-6. Modules/Remainder Assignment (% =):  
+6. **Modules/Remainder Assignment (% =) :**   
 It divides a variable by the value of the right operand and assigns the remainder to the variable.
 ```js
 Y %= A is equivalent to Y = Y % A
 ```
 
-7. Exponentiation Assignment (** =):  
+7. **Exponentiation Assignment (** =) :**   
 This raises the value of a variable to the power of the right operand.
 ```js
 Y **= A is equivalent to Y=Y ** A
 ```
 
-8. Left Shift Assignment (<< =): 
+8. **Left Shift Assignment (<< =) :**  
  It moves the specified amount of bits to the left and assigns the result to the variable.
  ```js
 Y <<= A is equivalent to Y=Y << A
  ```
 
-9. Right Shift Assignment (>> =): It moves the specified amount of bits to the right and assigns the result to the variable.
+9. **Right Shift Assignment (>> =) :**  
+ It moves the specified amount of bits to the right and assigns the result to the variable.
 ```js
 Y >>= A is equivalent to Y = Y >> A
 ``` 
 
-10. Bitwise AND Assignment (& =): It does a bitwise AND operation on the operand, and assigns the result to the variable.
+10. **Bitwise AND Assignment (& =) :**  
+ It does a bitwise AND operation on the operand, and assigns the result to the variable.
 ```js
 Y &= b is equivalent to Y = Y & A
 ```
 
-11. Bitwise OR Assignment (| =): It does a bitwise OR operation on the operand, and assigns the result to the variable.
+11. **Bitwise OR Assignment (| =) :**  
+ It does a bitwise OR operation on the operand, and assigns the result to the variable.
 ```js
 Y |= A is equivalent to Y= Y | b
 ```
 
-12. Bitwise XOR Assignment (^ =): It does a bitwise XOR operation on the operand, and assigns the result to the variable.
+12. **Bitwise XOR Assignment (^ =) :**  
+ It does a bitwise XOR operation on the operand, and assigns the result to the variable.
 ```js
  Y ^= A is equivalent to Y= Y ^ A
 ```
