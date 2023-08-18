@@ -23,7 +23,7 @@ This repo covers all JavaScript methods in general
 - Primitive data types (number, string, boolean, null, undefined).
 - Complex data types (objects, arrays, functions).
 
-### Operators:
+### [# Operators](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/operators.md) :
 
 - Arithmetic operators (+, -, *, /, %).
 - Comparison operators (==, ===, !=, !==, >, <, >=, <=).
