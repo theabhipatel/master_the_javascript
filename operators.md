@@ -305,30 +305,38 @@ Example: In this example, we will use all assignment operators.
 | <= |	less than or equal to |
 | ? |	ternary operator |
 
-1. Equality (==): Compares the equality of two operands. If equal then the condition is true otherwise false.
+1. **Equality (==) :**  
+ Compares the equality of two operands. If equal then the condition is true otherwise false.
 Y = 5 and X = 6
 Y = = X is false.
 
-2. Strict equality (===): Compares the equality of two operands with type. If both value and type are equal then the condition is true otherwise false.
+2. **Strict equality (===):**  
+ Compares the equality of two operands with type. If both value and type are equal then the condition is true otherwise false.
 Y = 5 and X = '5'
 Y = = = X is false.
 
-3. Inequality (!=):  Compares inequality of two operands. True if operands are not equal. 
+3. **Inequality (!=) :**  
+  Compares inequality of two operands. True if operands are not equal. 
 let X = 10 then X ! = 11 is true. 
 
-4. Strict inequality(!==): Compares the inequality of two operands with type. If both value and type are equal then the condition is true otherwise false.
+4. **Strict inequality(!==) :**  
+ Compares the inequality of two operands with type. If both value and type are equal then the condition is true otherwise false.
 let X = 10 then X ! == '10' is true. 
 
-5. Greater than (>): This operator checks whether the left side value is greater than the right side value. If yes then it returns true otherwise it returns false. 
+5. **Greater than (>) :**  
+  This operator checks whether the left side value is greater than the right side value. If yes then it returns true otherwise it returns false. 
 let X = 10 then X > 11 is false. 
 
-6. Less than (<): This operator checks whether the left side value is less than the right side value. If yes then it returns true otherwise it returns false. 
+6. **Less than (<) :**  
+ This operator checks whether the left side value is less than the right side value. If yes then it returns true otherwise it returns false. 
 let X = 10 then X < 11 is true. 
 
-7. Greater than or Equal to (> =): This operator checks whether the left side operand is greater than or equal to the right side operand. If yes then it returns true otherwise it returns false. 
+7. **Greater than or Equal to (> =) :**  
+ This operator checks whether the left side operand is greater than or equal to the right side operand. If yes then it returns true otherwise it returns false. 
 let X = 10 then X > = 11 is false. 
 
-8. Less than or Equal to (<= ): This operator checks whether the left side operand value is less than or equal to the right side operand value. If yes then it returns true otherwise it returns false. 
+8. **Less than or Equal to (<= ) :**  
+ This operator checks whether the left side operand value is less than or equal to the right side operand value. If yes then it returns true otherwise it returns false. 
 let X = 10 then X < = 10 is true. 
 
 Example: In this example, we will use all comparison operators.
@@ -338,38 +346,29 @@ Example: In this example, we will use all comparison operators.
     let val1 = 5;
     let val2 = 5;
     // Equality Operator
-    console.log(val1 == val2);
+    console.log(val1 == val2); //   true
   
     // Strict equality Operator
-    console.log(val1 === val2);
+    console.log(val1 === val2); // true
   
     // Inequality Operator
-    console.log(val1 != val2);
+    console.log(val1 != val2); // false
   
     // Strict Inequality Operator
-    console.log(val1 !== val2);
+    console.log(val1 !== val2); // false
   
     // Greater than Operator
-    console.log(val1 > val2);
+    console.log(val1 > val2); // false
   
     // Greater than or equal Operator
-    console.log(val1 >= val2);
+    console.log(val1 >= val2); // true
   
     // Less than Operator
-    console.log(val1 < val2);
+    console.log(val1 < val2); // false
   
     // Less than or equal Operator
-    console.log(val1 <= val2);
+    console.log(val1 <= val2); // true
 
-    // out put
-    true
-true
-false
-false
-false
-true
-false
-true
 ```
 
 ----------------------------------
