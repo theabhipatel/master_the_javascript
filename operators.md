@@ -29,39 +29,75 @@ JavaScript **operators** operate the operands, these are symbols that are used t
 | +a | Unary |
 | -a | Negation |
 
-**1. Addition (+) :** Addition ‘+’ operator performs addition on two operands. This ‘+’ operator can also be used to concatenate (add) strings.
+**1. Addition (+) :**  
+Addition ‘+’ operator performs addition on two operands. This ‘+’ operator can also be used to concatenate (add) strings.
+```js
 Y = 5 + 5 gives Y = 10
-Y = "Geeks" + "for" + "Geeks" gives Y = "GeeksforGeeks"
-Y = "Geeks" + 4 + "Geeks" gives Y = "Geeks4Geeks"
+Y = "Hello" + "for" + "World" 
+// gives Y = "HelloforWorld"
+Y = "Hello" + 4 + "World" 
+// gives Y = "Hello4World"
+```
 
-**2. Subtraction (-) :** Subtraction ‘-‘ operator performs subtraction on two operands.
+
+**2. Subtraction (-) :**  
+Subtraction ‘-‘ operator performs subtraction on two operands.
+```js
 Y = 5 - 3 gives Y = 2 
+```
 
-**3. Multiplication (*) :** Multiplication ‘*’ operator performs multiplication on two operands.
+**3. Multiplication (*) :**  
+Multiplication ‘*’ operator performs multiplication on two operands.
+```js
 Y = 5 * 5 gives Y = 25
+```
 
-**4. Division (/) :** Division ‘/’ operator performs division on two operands (divide the numerator by the denominator). 
+**4. Division (/) :**  
+Division ‘/’ operator performs division on two operands (divide the numerator by the denominator).
+```js
 Y = 5 / 5 gives Y = 1
+``` 
 
-**5. Modulus (%) :** Modulus ‘%’ operator gives a remainder of an integer division. 
-A % B means remainder (A/B)
-Y = 5 % 4 gives Y = 1
+**5. Modulus (%) :**  
+Modulus ‘%’ operator gives a remainder of an integer division. 
+```js
+// A % B means remainder (A/B)
+Y = 5 % 4  // gives Y = 1
+```
 
-**6. Exponentiation (**) :** Exponentiation ‘**’ operator give the power of the first operator raised to the second operator.
+
+**6. Exponentiation (**) :**  
+Exponentiation ‘**’ operator give the power of the first operator raised to the second operator.
+```js
 Y = 5 ** 3 gives Y = 125
+```
 
-**7. Increment(++) :** Increment ‘+ +’ operator increases an integer value by one. 
+**7. Increment(++) :**  
+Increment ‘+ +’ operator increases an integer value by one. 
+```js
 let A = 10 and Y = A + + then A = 11, Y=10
 if A = 10 and Y = + + A then A = 11, Y=11
+```
 
-**8. Decrement (- -):** Decrement ‘- -‘ operator decreases an integer value by one.
+
+**8. Decrement (- -) :**  
+Decrement ‘- -‘ operator decreases an integer value by one.
+```js
 let A = 10 and Y = A - - then A = 9, Y=10
 if A = 10 and Y = - - A then A = 9, Y=9
+```
 
-**9. Unary (+) :** Unary ‘+’ is the fastest and preferred way of converting something into a number
-+a means a is a positive number
+**9. Unary (+) :**  
+Unary ‘+’ is the fastest and preferred way of converting something into a number
++a means a is a  number
+```js
+let a = "45";
+console.log(+a); // 45
+console.log(typeof +a); // number
+```
 
-**10. Negation (-) :** Negation ‘-‘ operator gives the negation of an operand.
+**10. Negation (-) :**  
+Negation ‘-‘ operator gives the negation of an operand.
 -a means a is a negative number
 
 Example: In this example we will use all assignment operators.
@@ -110,7 +146,7 @@ console.log(h) // 1
 
   
 // Unary plus Operator
-let i = 3;
+let i = '3';
 i1 = +i;
 console.log(i1) // 3
 
