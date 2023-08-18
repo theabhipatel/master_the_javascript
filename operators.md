@@ -156,15 +156,15 @@ let j = 3;
 j1 = -j;
 console.log(j1) // -3
 ```
- --- ----------------------
+
  --- ----------------------
 
 ###  # 2. Assignment Operators: 
 The assignment operation evaluates the assigned value. Chaining the assignment operator is possible in order to assign a single value to multiple variables
 
-| Operator |	Example	Same As  |
-|- | - |
-| = |	x = y |	x = y |
+| Operator |	Example	| Same As  |
+|--------- | --------- | -------- |
+| =  |	x = y |	x = y |
 | += |	x += y |	x = x + y |
 | -= |	x -= y |	x = x - y |
 | *= |	x *= y |	x = x * y |
@@ -172,101 +172,118 @@ The assignment operation evaluates the assigned value. Chaining the assignment o
 | %= |	x %= y |	x = x % y |
 | **= |	x **= y |	x = x ** y |
 
-1. Assignment (=): This operator assigns the right operand value to the left operand.
+1. Assignment (=): 
+ This operator assigns the right operand value to the left operand.
+ ```js 
  If A = 10 and Y = A then Y = 10
+ ```
 
-2. Addition Assignment (+=): Sums up left and right operand values and then assigns the result to the left operand.;
+2. Addition Assignment (+=): 
+ Sums up left and right operand values and then assigns the result to the left operand.;
+ ```js
 Y += 1 gives Y = Y + 1 
+ ```
 
-3. Subtraction Assignment (- =): It subtracts the right side value from the left side value and then assigns the result to the left operand. 
+3. Subtraction Assignment (- =): 
+ It subtracts the right side value from the left side value and then assigns the result to the left operand. 
+ ```js
 Y -= 1 gives Y = Y - 1 
+ ```
 
-4. Multiplication Assignment (*=): It multiplies a variable by the value of the right operand and assigns the result to the variable.
+4. Multiplication Assignment (*=): 
+ It multiplies a variable by the value of the right operand and assigns the result to the variable.
+ ```js
 Y *= A is equivalent to Y = Y * A
+ ```
 
-5. Division Assignment (/ =): It divides a variable by the value of the right operand and assigns the result to the variable.
+5. Division Assignment (/ =): 
+ It divides a variable by the value of the right operand and assigns the result to the variable.
+ ```js
 Y /= A is equivalent to Y = Y / A
+ ```
 
-6. Modules/Remainder Assignment (% =): It divides a variable by the value of the right operand and assigns the remainder to the variable.
+6. Modules/Remainder Assignment (% =):  
+It divides a variable by the value of the right operand and assigns the remainder to the variable.
+```js
 Y %= A is equivalent to Y = Y % A
+```
 
-7. Exponentiation Assignment (** =): This raises the value of a variable to the power of the right operand.
+7. Exponentiation Assignment (** =):  
+This raises the value of a variable to the power of the right operand.
+```js
 Y **= A is equivalent to Y=Y ** A
+```
 
-8. Left Shift Assignment (<< =): It moves the specified amount of bits to the left and assigns the result to the variable.
+8. Left Shift Assignment (<< =): 
+ It moves the specified amount of bits to the left and assigns the result to the variable.
+ ```js
 Y <<= A is equivalent to Y=Y << A
+ ```
 
 9. Right Shift Assignment (>> =): It moves the specified amount of bits to the right and assigns the result to the variable.
+```js
 Y >>= A is equivalent to Y = Y >> A
+``` 
 
 10. Bitwise AND Assignment (& =): It does a bitwise AND operation on the operand, and assigns the result to the variable.
+```js
 Y &= b is equivalent to Y = Y & A
+```
 
 11. Bitwise OR Assignment (| =): It does a bitwise OR operation on the operand, and assigns the result to the variable.
+```js
 Y |= A is equivalent to Y= Y | b
+```
 
 12. Bitwise XOR Assignment (^ =): It does a bitwise XOR operation on the operand, and assigns the result to the variable.
+```js
  Y ^= A is equivalent to Y= Y ^ A
+```
 
 Example: In this example, we will use all assignment operators.
 
 ```js 
     // Assignment Operator
     let a = 2;
-    console.log(a);
+    console.log(a); // 2
       
     // Addition Assignment Operator
     const b= 3;
-    console.log(a = b + 1);
+    console.log(a = b + 1); // 4
        
     // Subtraction Assignment Operator
     let yoo=4;
-    console.log(foo=yoo-1); 
+    console.log(foo=yoo-1); // 3
       
-       
     // Multiplication Assignment 
-    console.log(yoo=yoo*2); 
-      
+    console.log(yoo=yoo*2);  // 8
+ 
     // Division Assignment Operator
     const moo=2;
-    console.log(yoo=yoo/moo);
+    console.log(yoo=yoo/moo); // 4    
        
     // Modulas Assignment Operator
-    console.log(yoo%=2);
+    console.log(yoo%=2); // 0
       
     // Exponentian Assignment Operator
-    console.log(yoo**moo);
+    console.log(yoo**moo); // 0
       
     // Left Shift Assignment
-    console.log(yoo<<=2);
+    console.log(yoo<<=2); // 0
       
     // Right Shift Assignment
-    console.log(yoo>>=2);
+    console.log(yoo>>=2); // 0
        
     // Bitwise AND Assignment
-    console.log(yoo&=2);
+    console.log(yoo&=2); // 0
        
     // Bitwise OR Assignment
-    console.log(yoo|=2);
+    console.log(yoo|=2); // 2
       
     // Bitwise XOR Assignment
-    console.log(yoo^=2);
-
-    // out put 
-2
-4
-3
-8
-4
-0
-0
-0
-0
-0
-2
-0
+    console.log(yoo^=2); // 0
 ```
-------------------------------------------
+---
 <!-- ------------------------------------------ -->
 
 ### # 3. Comparison Operators :
