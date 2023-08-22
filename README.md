@@ -3,7 +3,7 @@ This repo covers all JavaScript methods in general
 
 ---
 
-### Introduction to JavaScript:
+### [Introduction to JavaScript](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/introduction-to-javascript.md) :
 
 - What is JavaScript?
 - Role of JavaScript in web development.
