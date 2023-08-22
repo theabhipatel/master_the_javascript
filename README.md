@@ -48,7 +48,7 @@ This repo covers all JavaScript methods in general
 - for...in loop.
 - for...of loop.
 
-### Functions :
+### [Functions](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/function.md) :
 
 - Declaring functions.
 - Function expressions vs function declarations.
