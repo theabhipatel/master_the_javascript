@@ -73,16 +73,6 @@ This repo covers all JavaScript methods in general
 - Object methods.
 - Object destructuring.
 
-### DOM Manipulation:
-
-- Selecting elements from the DOM.
-- Modifying element content, styles, and attributes.
-- Creating and appending elements.
-
-### Events:
-
-- Handling events in JavaScript.
-- Event listeners and event propagation.
 
 ### Asynchronous JavaScript:
 
@@ -113,6 +103,22 @@ This repo covers all JavaScript methods in general
 
 - Working with JSON data.
 - JSON.parse() and JSON.stringify().
+
+---
+>#### below topics comming soon as i will get the time.
+---
+
+### DOM Manipulation:
+
+- Selecting elements from the DOM.
+- Modifying element content, styles, and attributes.
+- Creating and appending elements.
+
+### Events:
+
+- Handling events in JavaScript.
+- Event listeners and event propagation.
+
 
 ### AJAX and Fetch API:
 
