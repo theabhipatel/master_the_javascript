@@ -1,7 +1,7 @@
 # Introduction to JavaScript 
 
 
-**# What is JavaScript ?**  
+### # What is JavaScript ? 
 
 JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
 
@@ -12,7 +12,7 @@ JavaScript is a lightweight, cross-platform, single-threaded, and interpreted co
 - **Imperative language** – In this type of language we are mostly concerned about how it is to be done. It simply controls the flow of computation. The procedural programming approach, object, oriented approach comes under this as async await we are thinking about what is to be done further after the async call.
 - **Declarative programming ** – In this type of language we are concerned about how it is to be done, basically here logical computation requires. Her main goal is to describe the desired result without direct dictation on how to get it as the arrow function does.
 
-**How to Link JavaScript File in HTML ?**
+**# How to Link JavaScript File in HTML ?**
 
 JavaScript can be added to HTML file in two ways:
 
@@ -48,11 +48,11 @@ Example :
 </html>
 ```
 
-**# History of JavaScript**
+### # History of JavaScript
 
 It was created in 1995 by `Brendan Eich` while he was an engineer at Netscape. It was originally going to be named LiveScript but was renamed. Unlike most programming languages, JavaScript language has no concept of input or output. It is designed to run as a scripting language in a host environment, and it is up to the host environment to provide mechanisms for communicating with the outside world. The most common host environment is the browser. 
 
-**# Features of JavaScript**
+### # Features of JavaScript
 
 According to a recent survey conducted by Stack Overflow, JavaScript is the most popular language on earth. 
 With advances in browser technology and JavaScript having moved into the server with Node.js and other frameworks, JavaScript is capable of so much more. Here are a few things that we can do with JavaScript: 
@@ -63,8 +63,7 @@ With advances in browser technology and JavaScript having moved into the server 
 - Performs Form Validation although the forms are created using HTML.
 - No compiler is needed.
 
-
-**Applications of JavaScript**
+### # Applications of JavaScript
 
 - **Web Development :** Adding interactivity and behavior to static sites JavaScript was invented to do this in 1995. By using AngularJS that can be achieved so easily.
 - **Web Applications :** With technology, browsers have improved to the extent that a language was required to create robust web applications. When we explore a map in Google Maps then we only need to click and drag the mouse. All detailed view is just a click away, and this is possible only because of JavaScript. It uses Application Programming Interfaces(APIs) that provide extra power to the code. The Electron and React are helpful in this department.
@@ -76,7 +75,7 @@ With advances in browser technology and JavaScript having moved into the server 
 - **Mobile Applications :** JavaScript can also be used to build an application for non-web contexts. The features and uses of JavaScript make it a powerful tool for creating mobile applications. This is a Framework for building web and mobile apps using JavaScript. Using React Native, we can build mobile applications for different operating systems. We do not require to write code for different systems. Write once use it anywhere!
 
 
-**Limitations of JavaScript**
+### # Limitations of JavaScript
 
 - **Security risks** : JavaScript can be used to fetch data using AJAX or by manipulating tags that load data such as `<img>`, `<object>`, `<script>`. These attacks are called cross-site script attacks. They inject JS that is not part of the site into the visitor’s browser thus fetching the details. 
 - **Performance** : JavaScript does not provide the same level of performance as offered by many traditional languages as a complex program written in JavaScript would be comparatively slow. But as JavaScript is used to perform simple tasks in a browser, so performance is not considered a big restriction in its use.
@@ -84,7 +83,7 @@ With advances in browser technology and JavaScript having moved into the server 
 - **Weak error handling and type checking facilities** : It is a weakly typed language as there is no need to specify the data type of the variable. So wrong type checking is not performed by compile.
 
 
-**Why JavaScript is known as a lightweight programming language ?**
+### # Why JavaScript is known as a lightweight programming language ?
 
 JavaScript is considered lightweight due to the fact that it has low CPU usage, is easy to implement, and has a minimalist syntax. Minimalist syntax as in, has no data types. Everything is treated here as an object. It is very easy to learn because of its syntax similar to C++ and Java.
 
@@ -93,7 +92,7 @@ A lightweight language does not consume much of your CPU’s resources. It doesn
 Additionally, when compared with other programming languages, it has fewer in-built libraries or frameworks, contributing as another reason for it being lightweight. However, this brings a drawback in that we need to incorporate external libraries and frameworks. 
 
 
-**Is JavaScript Compiled or Interpreted or both ?**
+### # Is JavaScript Compiled or Interpreted or both ?
 
 JavaScript is both compiled and interpreted. In the earlier versions of JavaScript, it used only the interpreter that executed code line by line and shows the result immediately. But with time the performance became an issue as interpretation is quite slow. Therefore, in the newer versions of JS, probably after the V8, the JIT compiler was also incorporated to optimize the execution and display the result more quickly. This JIT compiler generates a bytecode that is relatively easier to code. This bytecode is a set of highly optimized instructions.  
 The V8 engine initially uses an interpreter, to interpret the code. On further executions, the V8 engine finds patterns such as frequently executed functions, and frequently used variables, and compiles them to improve performance.
