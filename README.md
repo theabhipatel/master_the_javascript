@@ -99,7 +99,7 @@ This repo covers all JavaScript methods in general
 - Classes and inheritance.
 - Modules (import/export).
 
-### JSON:
+### [JSON](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/json.md) :
 
 - Working with JSON data.
 - JSON.parse() and JSON.stringify().
