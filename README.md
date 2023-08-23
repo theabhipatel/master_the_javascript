@@ -74,7 +74,7 @@ This repo covers all JavaScript methods in general
 - Object destructuring.
 
 
-### Asynchronous JavaScript:
+### [Asynchronous JavaScript](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/asynchronous-javaScript.md) :
 
 - Callbacks.
 - Promises.
