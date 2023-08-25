@@ -85,7 +85,7 @@ This repo covers all JavaScript methods in general
 - try...catch blocks.
 - Handling and throwing errors.
 
-### Scope and Closures:
+### [Scope and Closures](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/scope-and-closures.md) :
 
 - Global scope vs function scope.
 - Lexical scope and closures.
