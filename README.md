@@ -80,7 +80,7 @@ This repo covers all JavaScript methods in general
 - Promises.
 - Async/Await.
 
-### Error Handling:
+### [Error Handling](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/error-handling.md) :
 
 - try...catch blocks.
 - Handling and throwing errors.
