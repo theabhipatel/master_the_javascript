@@ -90,7 +90,7 @@ This repo covers all JavaScript methods in general
 - Global scope vs function scope.
 - Lexical scope and closures.
 
-### ES6+ Features:
+### [ES6+ Features](https://github.com/TheAbhiPatel/master_the_javascript/blob/main/es6.md) :
 
 - let and const.
 - Template literals.
